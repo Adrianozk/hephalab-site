@@ -1,10 +1,10 @@
 /* Ajuste para o bloco WhatsApp na seção de contato */
+/* Ajuste para o bloco WhatsApp na seção de contato */
 .contato-link-whatsapp {
   display: flex;
   align-items: center;
   text-decoration: none;
   color: inherit;
-  margin-bottom: 24px;
 }
 .contato-link-whatsapp .contato-icon {
   margin-right: 16px;
@@ -19,6 +19,9 @@
   margin-bottom: 24px;
 }
 .contato-info .contato-item:last-child {
+  margin-bottom: 0;
+}
+.contato-link-whatsapp {
   margin-bottom: 0;
 }
 /* Reset e configurações básicas */
