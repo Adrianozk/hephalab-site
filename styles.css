@@ -147,42 +147,6 @@ h1, h2, h3, h4, h5, h6 {
     width: auto;
 }
 
-/* Referência visual a Hefesto */
-.heph-ref {
-    text-align: center;
-    margin-bottom: var(--spacing-md);
-}
-
-.heph-ref img {
-    width: 120px;
-    height: auto;
-    border-radius: 8px;
-    display: block;
-    margin: 0 auto var(--spacing-xs) auto;
-    box-shadow: 0 2px 8px var(--shadow);
-}
-
-.heph-ref span {
-    font-size: 0.9rem;
-    color: var(--secondary-gray);
-    display: block;
-}
-
-/* Bloco combinando logo e referência a Hefesto */
-.sobre-brand {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: var(--spacing-md);
-    margin-bottom: var(--spacing-md);
-}
-
-.sobre-logo {
-    max-width: 220px;
-    width: 100%;
-    height: auto;
-}
-
 .nav-menu {
     display: flex;
     list-style: none;
@@ -768,14 +732,6 @@ section {
 
     .section-title {
         font-size: 2rem;
-    }
-
-    .heph-ref span {
-        display: none;
-    }
-
-    .sobre-brand {
-        flex-direction: column;
     }
 }
 
