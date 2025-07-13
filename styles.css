@@ -168,6 +168,21 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
 }
 
+/* Bloco combinando logo e referência a Hefesto */
+.sobre-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-md);
+}
+
+.sobre-logo {
+    max-width: 220px;
+    width: 100%;
+    height: auto;
+}
+
 .nav-menu {
     display: flex;
     list-style: none;
@@ -757,6 +772,10 @@ section {
 
     .heph-ref span {
         display: none;
+    }
+
+    .sobre-brand {
+        flex-direction: column;
     }
 }
 
