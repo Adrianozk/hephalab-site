@@ -147,6 +147,25 @@ h1, h2, h3, h4, h5, h6 {
     width: auto;
 }
 
+/* Logo container with reference */
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+.heph-ref img {
+    width: 45px;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
+
+.heph-ref span {
+    font-size: 0.75rem;
+    color: var(--secondary-gray);
+}
+
 .nav-menu {
     display: flex;
     list-style: none;
@@ -732,6 +751,10 @@ section {
 
     .section-title {
         font-size: 2rem;
+    }
+
+    .heph-ref span {
+        display: none;
     }
 }
 
