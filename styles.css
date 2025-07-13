@@ -592,6 +592,7 @@ section {
 .footer-logo-img {
     height: 40px;
     width: auto;
+    filter: none !important;
 }
 
 .footer-links {
