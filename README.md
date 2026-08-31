@@ -1,59 +1,60 @@
-# Hephalab Website
+# HephaLab — site institucional
 
-Este repositório contém o código-fonte do site da Hephalab.
+Código-fonte do site institucional da **HephaLab**, iniciativa de impressão 3D e manufatura aditiva sediada em Campinas, SP.
 
-## Sobre
+**Site em produção:** [hephalab.com.br](https://hephalab.com.br)
 
-O site da Hephalab é uma plataforma desenvolvida para [descrever brevemente o propósito do site, por exemplo: apresentar os serviços da empresa, fornecer informações sobre produtos, etc.].
+## Sobre o projeto
 
-## Tecnologias Utilizadas
+A landing page apresenta a marca, os serviços oferecidos e os canais de contato da HephaLab. O projeto foi desenvolvido como um site estático, sem etapa de compilação ou dependências de execução, priorizando carregamento rápido e manutenção simples.
 
-*   **HTML5**: Para a estrutura do conteúdo.
-*   **CSS3**: Para estilização e layout.
-*   **JavaScript**: Para interatividade e funcionalidades dinâmicas.
+## Funcionalidades
 
-## Como Usar
+- layout responsivo para desktop, tablet e celular;
+- navegação por seções com rolagem suave;
+- menu adaptado para dispositivos móveis;
+- apresentação dos serviços de impressão e modelagem 3D;
+- integração com WhatsApp e redes sociais;
+- animações acionadas durante a rolagem;
+- metadados básicos para mecanismos de busca e compartilhamento.
 
-Para visualizar o site localmente, siga os passos abaixo:
+## Tecnologias
 
-1.  **Clone o repositório:**
+- HTML5
+- CSS3
+- JavaScript
+- Font Awesome
+- Google Fonts
 
-    ```bash
-    git clone https://github.com/SEU_USUARIO/hephalab-website.git
-    ```
+## Estrutura
 
-2.  **Navegue até o diretório do projeto:**
-
-    ```bash
-    cd hephalab-website
-    ```
-
-3.  **Abra o arquivo `index.html` no seu navegador preferido.**
-
-    Você pode simplesmente clicar duas vezes no arquivo `index.html` ou arrastá-lo para a janela do navegador.
-
-## Estrutura do Projeto
-
-```
-hephalab-website/
+```text
+.
 ├── index.html
 ├── styles.css
 ├── script.js
 ├── logo-hephalab.png
-├── README.md
-└── .gitignore
+└── logo-hephalab-transparente.png
 ```
 
-## Contribuição
+## Execução local
 
-Se você deseja contribuir com este projeto, por favor, siga as diretrizes de contribuição [link para CONTRIBUTING.md, se houver].
+O site pode ser aberto diretamente pelo arquivo `index.html`. Para servi-lo por HTTP durante o desenvolvimento, execute na raiz:
+
+```bash
+python -m http.server 8000
+```
+
+Depois acesse `http://localhost:8000`.
+
+## Implantação
+
+Por ser totalmente estático, o projeto pode ser hospedado em serviços como GitHub Pages, Netlify, Vercel ou qualquer servidor HTTP convencional. A versão em produção utiliza o domínio `hephalab.com.br`.
 
 ## Licença
 
-Este projeto está licenciado sob a licença [Nome da Licença, por exemplo: MIT License]. Veja o arquivo `LICENSE` para mais detalhes.
+Distribuído sob a licença MIT. Consulte [LICENSE](LICENSE).
 
-## Contato
+## Autoria
 
-Para dúvidas ou sugestões, entre em contato com [Seu Nome/Email/Link de Contato].
-
-
+Desenvolvido e mantido por [Adriano Fernandes](https://github.com/Adrianozk).
